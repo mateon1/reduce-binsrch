@@ -1,0 +1,14 @@
+[package]
+name = "reduce-binsrch"
+version = "0.1.0"
+authors = ["Mateusz Naściszewski <matin1111@wp.pl>"]
+
+[profile.release]
+opt-level = 3
+debug = 2
+lto = true
+
+[dependencies]
+clap = "2.26"
+regex = "0.2"
+rand = "0.3"
