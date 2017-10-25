@@ -1,2 +1,2 @@
 #!/bin/sh
-reduce-binsrch '\b\w+(?:=\S*)' $1
+reduce-binsrch '\b\w+=(?:"[^"\n]*"|'"'"'[^'"'"'\n]*'"'"'"|\S*)' $1
